@@ -1,6 +1,6 @@
 # Change the default theme to be use when building the site with Hugo
 theme = ["hugo-video","hugo-theme-learn"]
-
+BaseURL = "https://lunatic-def.github.io/FCJ2024-Mission2/"
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -9,7 +9,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = ""
+  editURL = "https://lunatic-def.github.io/FCJ2024-Mission2/"
   description = ""
   author = "journeyoftheaverageguy@gmail.com"
   showVisitedLinks = true
@@ -18,22 +18,11 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
-title = "AWS System Manager"
+title = "Serverless microservice"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
-weight = 20
-
-[Languages.vi]
-title = "AWS System Manager"
-weight = 2
-languageName = "Tiếng Việt"
-
-[[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj/"
