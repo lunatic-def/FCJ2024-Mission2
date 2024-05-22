@@ -12,7 +12,7 @@ pre : " <b> 1. </b> "
 - Develop infrastruture with AWS CDK typescript
 - Develop lambda function with AWS SDK and NodeJS
 
-![topology](/images/1.intro/topology.JPG)
+![topology](/FCJ2024-Mission2/images/1.intro/topology.JPG)
 
 ***STEPS**
 1) Create DynamoDB tables for Product service -> Basket service -> Order service
