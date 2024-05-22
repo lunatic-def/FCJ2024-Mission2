@@ -148,15 +148,15 @@ exports.handler = async function (event) {
 
 ```
 - Dynamodb with "userName" as the primary key:
-![pic](/images/4-order/dynamodb.png)
+![pic](/FCJ2024-Mission2/images/4-order/dynamodb.png)
 - API Gateway result method:
-![pic](/images/4-order/apigw.png)
-![pic](/images/4-order/apigwb.png)
+![pic](/FCJ2024-Mission2/images/4-order/apigw.png)
+![pic](/FCJ2024-Mission2/images/4-order/apigwb.png)
 - Lambda stack:
-![pic](/images/4-order/lambda1.png)
+![pic](/FCJ2024-Mission2/images/4-order/lambda1.png)
 - "CheckoutBasketRole" Event bus:
-![pic](/images/4-order/eventbus.png)
-![pic](/images/4-order/eventbus2.png)
+![pic](/FCJ2024-Mission2/images/4-order/eventbus.png)
+![pic](/FCJ2024-Mission2/images/4-order/eventbus2.png)
 
 **Testing CheckoutBasket EventBridge Async Flow**
 

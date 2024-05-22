@@ -21,11 +21,11 @@ pre: " <b> f. </b> "
 - [example lambda & apigw proxy event](https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway.html)
 
 **1. Create a another file which contain the necessary packages named "package.json"**
-![1](/images/4-order/o1.png)
+![1](/FCJ2024-Mission2/images/4-order/o1.png)
 
 - Download the packages api:
-  ![3.1](/images/4-order/o2.png)
-  ![3](/images/4-order/o3.png)
+  ![3.1](/FCJ2024-Mission2/images/4-order/o2.png)
+  ![3](/FCJ2024-Mission2/images/4-order/o3.png)
 
 - Develop lambda production functions:
 
@@ -202,7 +202,7 @@ const GetAllOrder = async () => {
 **Case 2 && 3**
 
 [lambda with sqs ](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html)
-![pic](/images/4-order/sqs1.png)
+![pic](/FCJ2024-Mission2/images/4-order/sqs1.png)
 
 - EventSource mapping:
 - Polling event: Consumer poll product for message in batch and then process the batch before returning event batch records. Queue is a type event polling event source can be use for buffering incoming lambda request and support asynchronous request\
@@ -212,7 +212,7 @@ const GetAllOrder = async () => {
 
 **a. Case 2**
 
-![sqs](/images/4-order/topo3.png)
+![sqs](/FCJ2024-Mission2/images/4-order/topo3.png)
 [sqs](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_sqs.Queue.html)
 
 [lamdba sqs event-source](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_lambda_event_sources.SqsEventSource.html)

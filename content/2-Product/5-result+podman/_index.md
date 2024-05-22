@@ -80,15 +80,15 @@ export class MicroserviceStack extends cdk.Stack {
 
 
 - Dynamodb with "id" as the primary key:
-  ![pic](/images/2-product/res1.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res1.jpg)
 - API Gateway result method:
-  ![pic](/images/2-product/res2.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res2.jpg)
 - Lambda stack:
-  ![pic](/images/2-product/res3.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res3.jpg)
 - Lambda function:
-  ![pic](/images/2-product/res4.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res4.jpg)
 - Lambda triggers:
-  ![pic](/images/2-product/res5.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res5.jpg)
 - Test event on lambda function with json:
 
 ```
@@ -98,15 +98,15 @@ export class MicroserviceStack extends cdk.Stack {
 }
 ```
 
-![pic](/images/2-product/res6.jpg)
-![pic](/images/2-product/res7.jpg)
+![pic](/FCJ2024-Mission2/images/2-product/res6.jpg)
+![pic](/FCJ2024-Mission2/images/2-product/res7.jpg)
 
 => Result SUCCESS
 
 - Test API gateway path:
-  ![pic](/images/2-product/res8.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res8.jpg)
 - Test with GET method in browser -> result with empty body reason for not having items on dynamodb table
-  ![pic](/images/2-product/res9.jpg)
+  ![pic](/FCJ2024-Mission2/images/2-product/res9.jpg)
   **_PODMAN_**
 
 **Demo GetAllProduct and CreateProduct**

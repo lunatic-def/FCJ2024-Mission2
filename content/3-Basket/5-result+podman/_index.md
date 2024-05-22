@@ -75,13 +75,13 @@ The testing does not include POST /basket/checkout event, this will be included 
 
 
 - Dynamodb with "userName" as the primary key:
-  ![pic](/images/3-basket/res1.png)
+  ![pic](/FCJ2024-Mission2/images/3-basket/res1.png)
 - API Gateway result method:
-  ![pic](/images/3-basket/res2.png)
+  ![pic](/FCJ2024-Mission2/images/3-basket/res2.png)
 - Lambda stack:
-  ![pic](/images/3-basket/res3.png)
+  ![pic](/FCJ2024-Mission2/images/3-basket/res3.png)
 - Lambda triggers:
-  ![pic](/images/3-basket/res4.png)
+  ![pic](/FCJ2024-Mission2/images/3-basket/res4.png)
 - Test event on lambda function with json:
 
 ```
@@ -90,12 +90,12 @@ The testing does not include POST /basket/checkout event, this will be included 
 }
 ```
 
-![pic](/images/3-basket/res5.png)
+![pic](/FCJ2024-Mission2/images/3-basket/res5.png)
 
 => Result SUCCESS
 
 - Test API gateway path:
-  ![pic](/images/3-basket/res6.png)
+  ![pic](/FCJ2024-Mission2/images/3-basket/res6.png)
 
   **_PODMAN_**
 

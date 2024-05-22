@@ -18,7 +18,7 @@ pre : " <b> 4. </b> "
 
 
 **In this section we will continue developing checkout event with basket and order service using EvenBridge and SQS services**
-![topo](/images/4-order/topo.png)
+![topo](/FCJ2024-Mission2/images/4-order/topo.png)
 
 => Create an event resilience architecture for case like when order service when down, the event won disapper. Instead it will wait in the sqs queue 
 

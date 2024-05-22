@@ -14,6 +14,6 @@ Infrastructure ad codes, Iac Stacks with aws cdk
 Microservice deployment codes with Nodejs
 
 
-![pic](/images/folder.png)
-![pic](/images/folder2.png)
+![pic](/FCJ2024-Mission2/images/folder.png)
+![pic](/FCJ2024-Mission2/images/folder2.png)
 => With "test-stack.ts" as the main stack with 

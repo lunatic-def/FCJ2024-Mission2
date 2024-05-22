@@ -7,7 +7,7 @@ pre : " <b> 3. </b> "
 ---
 
 In this step we will create lambda basket service with simple CRUD REST API function and publish checkout event to EventBridge.
-![topology](/images/3-basket/topo.png)
+![topology](/FCJ2024-Mission2/images/3-basket/topo.png)
 
 **Steps**
 1) Create DynamoDB with AWS CDK

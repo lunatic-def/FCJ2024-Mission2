@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> a. </b> "
 ---
 
-![topo](/images/4-order/topo2.png)
+![topo](/FCJ2024-Mission2/images/4-order/topo2.png)
 
 + [Api reference](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_events.EventBus.html)
 ```

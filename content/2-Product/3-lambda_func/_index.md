@@ -9,14 +9,14 @@ pre: " <b> c. </b> "
 - [example lambda & apigw proxy event](https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway.html)
 
 **1. Create a another file which contain the necessary packages named "package.json"**
-![1](/images/2-product/1.JPG)
+![1](/FCJ2024-Mission2/images/2-product/1.JPG)
 
 - Add content:
-![2](/images/2-product/2.JPG)
+![2](/FCJ2024-Mission2/images/2-product/2.JPG)
 
 - Download the packages api:
-![3.1](/images/2-product/3.1.JPG)
-![3](/images/2-product/3.JPG)
+![3.1](/FCJ2024-Mission2/images/2-product/3.1.JPG)
+![3](/FCJ2024-Mission2/images/2-product/3.JPG)
 
 - Develop lambda production functions:
 
